@@ -1,11 +1,11 @@
 {
-    "name": "namoshek/laravel-redis-sentinel",
+    "name": "fabrichter/laravel-redis-sentinel",
     "description": "An extension of Laravels Redis driver which supports connecting to a Redis master through Redis Sentinel.",
     "keywords": [
         "laravel",
         "redis"
     ],
-    "homepage": "https://github.com/Namoshek/laravel-redis-sentinel",
+    "homepage": "https://github.com/fabrichter/laravel-redis-sentinel",
     "license": "MIT",
     "authors": [
         {
@@ -15,11 +15,9 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.0",
         "ext-redis": "*",
-        "illuminate/contracts": "^8.0",
-        "illuminate/redis": "^8.0",
-        "illuminate/support": "^8.0"
+        "laravel/framework": "^6.18"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
