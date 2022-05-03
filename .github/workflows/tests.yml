@@ -5,7 +5,6 @@ on:
     branches:
       - master
   pull_request:
-    types: [opened, synchronize, reopened]
 
 jobs:
   test-all:
@@ -16,7 +15,7 @@ jobs:
     strategy:
       matrix:
         operating-system: [ubuntu-latest]
-        php-version: ['8.0']
+        php-version: ['7.3', '8.0', '8.1']
 
     services:
       redis:
