@@ -17,10 +17,6 @@ jobs:
       matrix:
         operating-system: [ubuntu-latest]
         php-version: ['8.0', '8.1']
-        include:
-          - operating-system: 'ubuntu-latest'
-            php-version: '8.1'
-            run-sonarqube-analysis: true
 
     services:
       redis:
